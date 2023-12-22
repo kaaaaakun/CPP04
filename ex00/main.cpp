@@ -50,7 +50,8 @@ int main() {
     cat->makeSound();
     delete cat;
   }
-  std::cout << std::endl;
+
+  coutColor("\n-- canonical form test ------------------------", YELLOW);
   {
     coutColor("--ANIMAL--------------------------", GREEN);
     Animal animal1;
