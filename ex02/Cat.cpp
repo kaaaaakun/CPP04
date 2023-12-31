@@ -20,8 +20,8 @@ Cat::Cat(const Cat& other) {
 Cat& Cat::operator=(const Cat& other) {
   if (this != &other) {
     this->type_ = other.type_;
-    	delete brain_;
-    	this->brain_ = new Brain(*other.brain_);
+    delete brain_;
+    this->brain_ = new Brain(*other.brain_);
   }
   return *this;
 }
