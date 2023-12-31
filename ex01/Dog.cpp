@@ -13,15 +13,15 @@ Dog::~Dog() {
 
 Dog::Dog(const Dog& other) {
   std::cout << "Dog copy constructor called" << std::endl;
-  *this = other;
   this->brain_ = new Brain(*other.brain_);
+  this->type_ = other.type_;
 }
 
 Dog& Dog::operator=(const Dog& other) {
   if (this != &other) {
     this->type_ = other.type_;
-    //	delete brain_;
-    //	this->brain_ = new Brain(*other.brain_);
+   	delete brain_;
+   	this->brain_ = new Brain(*other.brain_);
   }
   return *this;
 }
