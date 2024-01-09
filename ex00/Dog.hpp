@@ -2,7 +2,7 @@
 #define DOG_HPP
 
 #include <iostream>
-#include <numeric>
+
 
 #include "Animal.hpp"
 
