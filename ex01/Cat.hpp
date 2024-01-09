@@ -2,8 +2,6 @@
 #define CAT_HPP
 
 #include <iostream>
-#include <numeric>
-#include <random>
 
 #include "Animal.hpp"
 #include "Brain.hpp"

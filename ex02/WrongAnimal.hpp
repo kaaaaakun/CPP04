@@ -2,7 +2,6 @@
 #define WRONG_ANIMAL_HPP
 
 #include <iostream>
-#include <numeric>
 
 class WrongAnimal {
  protected:

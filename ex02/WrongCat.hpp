@@ -2,7 +2,6 @@
 #define WRONG_CAT_HPP_
 
 #include <iostream>
-#include <numeric>
 
 #include "WrongAnimal.hpp"
 

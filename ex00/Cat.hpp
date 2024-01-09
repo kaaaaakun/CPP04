@@ -2,7 +2,6 @@
 #define CAT_HPP
 
 #include <iostream>
-#include <numeric>
 
 #include "Animal.hpp"
 

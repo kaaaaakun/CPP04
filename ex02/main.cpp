@@ -65,12 +65,6 @@ void deeplyCopyTest() {
   coutColor("dog2 idea0: " + dog2.getIdea(0), GREEN);
 }
 
-// void animaltest() {
-//   coutColor("-- Animal test --------------------------", YELLOW);
-//   Animal animal;
-//   animal.makeSound();
-// }
-
 int main() {
   subjectTest();
   arrayTest();
@@ -79,6 +73,6 @@ int main() {
   return 0;
 }
 
-//__attribute__((destructor)) static void destructor() {
-//  system("leaks -q main");
-//}
+// __attribute__((destructor)) static void destructor() {
+//   system("leaks -q main");
+// }
