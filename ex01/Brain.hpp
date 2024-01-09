@@ -2,7 +2,9 @@
 #define BRAIN_HPP
 
 #include <iostream>
+
 #define MAX_IDEAS 100
+
 class Brain {
  protected:
   std::string ideas_[MAX_IDEAS];

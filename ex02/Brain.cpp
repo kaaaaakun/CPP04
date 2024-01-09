@@ -1,5 +1,4 @@
 #include "Brain.hpp"
-
 #include "Animal.hpp"
 
 Brain::Brain() { std::cout << "Brain default constructor called" << std::endl; }

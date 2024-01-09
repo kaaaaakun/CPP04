@@ -1,7 +1,5 @@
 #include "Animal.hpp"
 
-#include <cmath>
-
 Animal::Animal() : type_("Animal") {
   std::cout << "Animal default constructor called" << std::endl;
 }
